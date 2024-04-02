@@ -6,7 +6,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv('/Users/jasper/Downloads/Chatbot_OpenAI_Ollama-Langchain/.env')
 
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
